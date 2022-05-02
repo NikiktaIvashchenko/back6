@@ -1,0 +1,164 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url(http://beloweb.ru/wp-content/uploads/2014/04/123456729.jpg);
+    background-size: 100%;
+    background-size: cover;
+    color: white;
+}
+
+
+.error {
+  border: 2px solid red;
+    border-radius: 10px;
+}
+
+.error_mes{
+    justify-content: center;
+    text-align: center;
+    margin: 2px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+
+a{
+    text-decoration: none!important;
+}
+
+header{
+    background-color: #9900FF;
+    color: white;
+}
+
+
+.myHeader_name-site{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+nav h2{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+nav > a{
+    background-color: #CC00FF;
+    border-radius: 50px;
+    max-width: 100px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+
+.nav a:hover{
+   box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
+
+.hreferens a{
+    color: white;
+}
+
+.hreferens ol li{
+    color: #333333;
+    line-height: 18px;
+}
+.hreferens ol ul li{
+    max-width: 90px;
+    border-bottom: 1px solid white;
+}
+
+
+table {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+th, td:first-child {
+    background: #AFCDE7;
+    color: white;
+    padding: 8px 1px;
+}
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+
+
+td:nth-child(2n) {
+    background: #D8E6F3;
+}
+
+.wrap1{
+    background: linear-gradient(70deg, #dcecf9, #02184a);
+    max-width: 350px;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid black;
+    order: 2;
+}
+
+
+.form_inp{
+    max-width: 250px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px
+}
+
+.inp_name{
+    font-weight: 600;
+}
+
+
+.superpow select{
+    border-radius: 10px;
+    width: 200px;
+    height: 35px;
+    text-align-last: center;
+}
+
+textarea{
+    resize: none;
+    width: 200px;
+    height: 600px;
+    border-radius: 10px;
+    text-align-last: center
+}
+
+textarea:hover{
+    background-color: #C9F0FE;
+}
+
+input[type=submit]{
+    font-weight: 700;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #121212;
+    color: white;
+    font-size: 15px
+}
+
+footer{
+    background-color: #061634;
+    font-weight: 500;
+    font-size: 21px;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+.to-the-up a{
+    
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+}
+
+
